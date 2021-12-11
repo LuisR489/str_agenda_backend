@@ -10,7 +10,6 @@ Icon
 .Trashes
 ._*
 
-
 ############################
 # Linux
 ############################
@@ -95,6 +94,9 @@ results
 node_modules
 .node_history
 
+.vscode
+yarn.lock
+package-lock.json
 ############################
 # Tests
 ############################
@@ -113,6 +115,3 @@ exports
 build
 .strapi-updater.json
 
-
-package-lock.json
-yarn.lock

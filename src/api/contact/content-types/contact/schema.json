@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imei": {
+      "type": "string"
+    },
+    "arraycontacts": {
+      "type": "json"
+    },
+    "dynamicid": {
+      "type": "string"
+    }
+  }
+}

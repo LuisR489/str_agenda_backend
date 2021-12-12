@@ -4,7 +4,8 @@
   "info": {
     "singularName": "register",
     "pluralName": "registers",
-    "displayName": "register"
+    "displayName": "register",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,21 @@
   "pluginOptions": {},
   "attributes": {
     "calls": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "dynamicid": {
+      "type": "string"
+    },
+    "imei": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "message": {
       "type": "string"
     }
   }

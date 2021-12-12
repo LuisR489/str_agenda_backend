@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "calls": {
-      "type": "string"
-    },
     "date": {
       "type": "datetime"
     },
@@ -29,6 +26,9 @@
     },
     "message": {
       "type": "string"
+    },
+    "arraycalls": {
+      "type": "json"
     }
   }
 }
